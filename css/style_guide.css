@@ -154,6 +154,10 @@
   padding: 0 0 40px
 }
 
+.sg-rule-fold .sg-table-box03{
+  padding-bottom: 0;
+}
+
 .sg-table-box01 #table,
 .sg-table-box02 #table,
 .sg-table-box03 #table {
@@ -390,10 +394,12 @@
 }
 
 /*font-size*/
-.sg-comp-font-size .heading-size .s-h1,
-.s-h2,
-.s-h3 {
+.sg-comp-font-size .heading-size .s-h1, .s-h2{
   font-weight: 700;
+}
+
+.sg-comp-font-size .heading-size .s-h3 {
+  font-weight: 600;
 }
 
 .sg-comp-font-size .heading-size .s-h1 {
@@ -424,9 +430,12 @@
 
 /*font-weight*/
 .sg-comp-font-weight .heading-weight .w-h1,
-.w-h2,
-.w-h3 {
+.w-h2{
   font-weight: 700;
+}
+
+.sg-comp-font-weight .heading-weight .w-h3{
+  font-weight: 600;
 }
 
 .sg-comp-font-weight .heading-weight .w-h1 {
@@ -621,12 +630,16 @@
   margin-bottom: 5px;
 }
 
-.text-basic.btn #item-txt {
+.text-basic.btn #item-txt, .text-basic.btn #item-txt02{
   display: block;
 }
 
-.text-basic.btn .txtbox #item-txt {
+.text-basic.btn .txtbox #item-txt, .text-basic.btn #item-txt02 {
   width: 275px;
+}
+
+.text-basic #item-txt02{
+  background-color: #f4f4f4;
 }
 
 /*selet/check css*/
